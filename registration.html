@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
+	<title>Register</title>
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+
+<body bgcolor="#D7D3DD"; text="black";>
+	<div class = "container">
+		<h1> Register</h1>
+	</div>
+
+	<br> 
+
+	<div class = "container">
+	<form method="POST" action="action_form.php">
+  	<label><b>Username:</b></label><br>
+    <input type="text" placeholder="Desired Username" name="uname" required>
+
+    <br> 
+
+    <label><b>First Name:</b></label><br>
+    <input type="text" placeholder="Mary" name="fname" required>
+
+    <br> 
+
+    <label><b>Last Name:</b></label><br>
+    <input type="text" placeholder="Jane" name="lname" required>
+
+    <br> 
+
+    <label><b>Password:</b></label><br>
+    <input type="password" placeholder="Desired Password" name="pw" required>
+
+    <br> 
+
+    <label><b>Email:</b></label><br>
+    <input type="email" placeholder="Enter email" name="email" required>
+
+    <br> 
+
+    <label><b>Telephone Number:</b></label><br>
+    <input type="tel" placeholder="212-123-4567" name="tel" required>
+
+    <br> 
+
+    <label><b>Address:</b></label><br>
+    <input type="text" placeholder="123 Avenue A" name="address" required>
+
+    <br> 
+
+    <input type="submit" value="Register">
+    </form>
+    </div>
+
+     <div class="smallContainer">
+        <input type="button" value="Login" onclick="location.href='login.html';return false;" /><br>
+        <input type="button" value="Who We Are + Do" onclick="location.href='whoweare.html';return false;" />
+    </div>
+
+</body>
+</html>

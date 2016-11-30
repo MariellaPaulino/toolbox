@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
+	<title>Booking Transations </title>
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+	<!--Javascript--> 
+	<script>
+	function showDiv() {
+   	document.getElementById('welcomeDiv').style.display = "block" ;
+}
+	</script>
+
+</head>
+
+
+<body> 
+
+	<form method="GET" action="TransactionGET.php">
+
+	<div class="colorContainer">
+		<h1 class="bgBlue";> Booking Transactions Administrator </h1>
+	</div>
+
+	<p>ID: 					+id+</p>
+	<p>first name:			+fname+</p>
+	<p>last name:			+lname+</p>
+	<p>user: 				+user+</p>
+	<p>email: 				+email+</p>
+	<p>password: 			+password+</p>
+	<p>phone: 				+phone+</p>
+	<p>address: 			+address+</p>
+	<p>product: 			+product+</p>
+	<p>date: 				+date+</p>
+
+
+	</div>
+	<input type="button" value="Complete Transaction" onclick="location.href='';return false;" /><br>
