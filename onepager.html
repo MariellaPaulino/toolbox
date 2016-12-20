@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hearing Tool Borrower</title>
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+
+<body>
+
+ 	<header>
+	    <nav>
+			<ul>
+				<li><a href="#whoWeAre">Who We Are</a></li>
+				<li><a href="#login">Login</a></li>
+				<li><a href="#register">Register</a></li>
+				<li><a href="#book">Book</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<!--       INTRO     --> 
+	<div id="container1">
+		<h1> Tool Borrower  </h1>
+		<h3>FM Units are really expensive!  We seek to provides a solution for you to rent out FM units for an indefininte amount of time.</h3>
+	</div>
+
+	   
+
+	<hr>
+
+
+<!--       LOGIN     --> 
+	<div class = container>
+		<div id="login"><a href="login"></a></div>
+		<div class="container">
+			<h1> LOGIN</h1>
+			<form method="POST" action="login.php">
+			  	<label><b>Username:</b></label><br>
+			    <input type="text" placeholder="Enter Username" name="user" required>
+				<br> 
+				<label><b>Password:</b></label><br>
+				<input type="password" placeholder="Enter Password" name="pw" required>
+				<br>
+				<input type="submit" value="Login">
+		    </form>
+		</div>
+	</div>
+
+<hr>
+
+<!--       REGISTRATION     --> 
+		<div id="register"><a href="register"></a></div>
+		<div class = "container">
+			<h1> Register</h1>
+			<form method="POST" action="action_form.php">
+			  	<label><b>Username:</b></label><br>
+			    <input type="text" placeholder="Desired Username" name="uname" required>
+
+			    <br> 
+
+			    <label><b>First Name:</b></label><br>
+			    <input type="text" placeholder="Mary" name="fname" required>
+
+			    <br> 
+
+			    <label><b>Last Name:</b></label><br>
+			    <input type="text" placeholder="Jane" name="lname" required>
+
+			    <br> 
+
+			    <label><b>Password:</b></label><br>
+			    <input type="password" placeholder="Desired Password" name="pw" required>
+
+			    <br> 
+
+			    <label><b>Email:</b></label><br>
+			    <input type="email" placeholder="Enter email" name="email" required>
+
+			    <br> 
+
+			    <label><b>Telephone Number:</b></label><br>
+			    <input type="tel" placeholder="212-123-4567" name="tel" required>
+
+			    <br> 
+
+			    <label><b>Address:</b></label><br>
+			    <input type="text" placeholder="123 Avenue A" name="address" required>
+
+			    <br> 
+
+			    <input type="submit" value="Register">
+		    </form>
+	    </div>
+	
+<hr>
+<!--       LIST OF PRODUCTS     --> 
+	<div id="book"><a href="book"></a></div>
+	<div class = "container">
+		<h1> Book a Tool</h1>
+	
+		<br> 
+
+		<div class = "container">
+		<form method="POST" action="toolBooker.php">
+
+		  	<label><b>Product:</b></label><br>
+		    <select>
+				<option value="Roger Pen">Roger Pen</option>
+			  	<option value="Compilot">Compilot</option>
+			</select>
+		    <br> 
+
+		    <input type="submit" value="Book It!">
+		</form>
+	    </div>
+    </div>
+
+    
+<hr>
+
+<!--	   WHO WE ARE     		-->
+	<h1 class="container";> Hearing Tool Borrower </h1>
+
+	<div id="whoweare"><a href="whoweare"></a></div>
+	<div class = "container">
+		
+		<h2> Who we are: </h2>
+		<p> We know accessible tools for people with hearing loss are really (bleeping) expensive.  
+		We also know that colleges and universities typically do not allow students to keep their FM units after graduation.  In an effort to ensure that recent graduates and young professionals get the services they need to succeed in the workplace after graduation, we have purchased a bunch of Roger Mics for the Naida Advanced Bionics system that we loan out for a period of 6 months while students and young professionals get settled in their careers and jobs.  Wan to borrow one?  Log in and check our service offerings so you can have all the tools and services you need to succeed in the workplace. </p>
+
+		<h2> What we do: </h2>
+		<p> After you register and login, you can book a Roger Pen from our ToolBase.  After you book, the pen is then sent to you via mail and you get to rent it out for 6 months from the date.  BOOM!.  WAM! KAPOW!
+
+		<br>
+		That simple. 
+		</p>
+
+	</div>
+	
+
+
+
+
+
+</body>
+</html>

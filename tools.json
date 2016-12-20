@@ -1,0 +1,17 @@
+{
+	"products": [
+		{
+		"product": "compilot",
+		"date": "12/15/2016",
+		"quantity": "3"
+	},
+
+		{
+		"product": "roger pen", 
+		"date": "12/16/2016",
+		"quantity": "15"
+	}
+
+
+]
+}
