@@ -3,9 +3,9 @@
 $user = $_POST['user'];
 $pw = $_POST['pw'];
 
-$connect = mysqli_connect("localhost", "root","root","ToolBase");
+$connect = mysqli_connect("localhost","fsf2016","W3bD3vFun!","fsf2016");
 
-$query = "select * from users WHERE pw='$pw' AND user='$user'";
+$query = "select * from usersMP WHERE pw='$pw' AND user='$user'";
 
 $loginCheck = mysqli_query($connect, $query);
 

@@ -1,0 +1,16 @@
+{
+	"Product1": {
+		"id": "0101",
+		"product_name": "Roger Pen",
+		"product_date": "2016-12-15",
+		"quantity": "0"
+
+
+	},
+	"Product2": {
+		"id": "0102",
+		"product_name": "Compilot",
+		"product_date": "2016-12-15",
+		"quantity": "20"
+	}
+}

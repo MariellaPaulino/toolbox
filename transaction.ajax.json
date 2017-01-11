@@ -1,0 +1,16 @@
+$.ajax {
+	date = 12/5/2016 
+	Json: transcheck.json 
+	$.each{
+		if (Date = value.date ++ product=value.product){
+			if (value.qty>0){
+				post form
+				} else (
+				error message)
+		}
+		
+		else {
+		post form to transaction table
+		}}
+	}
+}

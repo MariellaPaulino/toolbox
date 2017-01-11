@@ -1,4 +1,4 @@
-<?php 
+<?php session_start();
 	$user = $_POST['uname'];
 	$fname = $_POST['fname'];
 	$lname = $_POST['lname'];
@@ -9,18 +9,24 @@
 
 //mysql query to connect the php to the sql database
 	//server, username, password, database name 
-	$connect = mysqli_connect("localhost", "root","root","ToolBase");
+	//ON LOCAL 
+	//$connect = mysqli_connect("localhost", "root","root","ToolBase");
+	//ON SERVER 
+	$connect = mysqli_connect("localhost","fsf2016","W3bD3vFun!","fsf2016");
 	
 	if(!$connect){
 		echo "opps";
 	}
 
-	$sql = "INSERT INTO users (id, fname, lname, user, email, pw, phone, address) VALUES (NULL, '$fname', '$lname', '$user', '$email', '$pw', '$tel', '$address');";
+	$sql = "INSERT INTO usersMP (id, fname, lname, user, email, pw, phone, address) VALUES (NULL, '$fname', '$lname', '$user', '$email', '$pw', '$tel', '$address');";
 
 	mysqli_query($connect, $sql);
 
-mysqli_close($connect);
 
+header('Location: Booking.php');
+
+//die();
+?>
 
 ?>
 

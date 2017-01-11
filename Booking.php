@@ -8,7 +8,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Hearing Tool Borrower</title>
 	<link rel="stylesheet" href="css/stylesheet.css">
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="jquery.min.js"></script>
+	<script src="productCheck.js"></script>
 </head>
 
 <body>
@@ -22,25 +23,27 @@
 		<br> 
 		<div class="container">
 		<form method="POST" action="toolBooker.php">
-			<h2> Item to book </h2>
-				<select>
-				  	<option name= "product" value="Roger Pen">Roger Pen</option>
-					<option name="product" value="Compilot">Compilot</option>
+			<h2> ITEM to book </h2>
+			<br>
+				<select name = "product" id = "product" required>
+					<option value="Compilot">Compilot</option>
+					<option value="Roger Pen">Roger Pen</option>
 				</select>
-		
 			<br>
 			
-			<h2> Get the Product: </h2>
+			<h2> GET the Product: </h2>
 			<br>
-				<input type="date" name="date" required>
+				<input type="date" name="date" id="date" required>
 			<br>
-			<h2> Get the Product: </h2>
+			<!--<h2> RETURN the Product: </h2>
 			<br> 	
 
 				<input type="date" name="date2" required>
 			<br>
-			
-				<input type='submit'/>
+			-->
+				 <input type='submit'/>
+
+
 		</form>
 	    </div>
 	</div>
